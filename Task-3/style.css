@@ -115,8 +115,7 @@ main h1{
     gap: 20px;
 }
 .product{
-    /* padding: 2em; */
-    /* background-color: #ffa648; */
+
     color: #5C4033;
     text-align: center;
     border-radius: 10px;
@@ -162,7 +161,7 @@ main h1{
 }
 .full-img span{
     position: absolute;
-    top:10%;
+    top:3%;
     right: 10%;
     font-size: 30px;
     color: white;

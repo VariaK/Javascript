@@ -1,11 +1,14 @@
 var fullImgBox = document.getElementById("fullImgBox");
 var fullImg = document.getElementById("fullImg");
+var images = document.querySelectorAll(".product img");
 
-function openFullImg(pic) {
-  fullImgBox.style.display = "flex";
-  fullImg.src = pic;
-}
+images.forEach((img) => {
+  img.addEventListener("click", () => {
+    fullImg.src = img.src;
+    fullImgBox.classList.add("show");
+  });
+});
 
 function closeFullImg() {
-  fullImgBox.style.display = "none";
+  fullImgBox.classList.remove("show");
 }

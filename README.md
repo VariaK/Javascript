@@ -38,7 +38,8 @@
 
 ## Output Task 3:
 
-![Recording-Js-Task3](https://github.com/user-attachments/assets/d4f8110f-0052-4559-b69f-54e9278f3443)
+![Js-Task-3](https://github.com/user-attachments/assets/01ad0866-3dcb-421b-90f4-be8cfb7ccd9e)
+
 
 ---
 
@@ -51,3 +52,6 @@
   - Implement error handling for invalid input or failed network requests.
 
 ## Output Task 4:
+![Js-Task-4](https://github.com/user-attachments/assets/d878f566-df1d-4a07-82ad-f9357e537e2a)
+
+

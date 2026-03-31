@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    font-family: Averia Libre;
+
+}
+.logo img{
+    width: 50px;
+    margin-right: 5px;
+}
+.logo{
+        font-family: Averia Libre;
+        font-size: 25px;
+        font-weight: 700;
+        color: #281C59;
+        display: flex;
+        align-items: center;
+
+}
+header{
+
+    grid-area: header;
+
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #FFFF5C;
+    position: sticky;
+    top:0;
+}
+nav{
+    font-size: 20px;
+    font-style: italic;
+    margin-right:50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container>img{
+    flex: 1 21%;
+    margin: 10px;
+}

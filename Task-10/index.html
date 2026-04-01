@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>SoleMate</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="logo">SoleMate</div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for products...">
+        </div>
+
+    </header>
+
+    <aside>
+        <div class="categories">
+            <h2>Categories</h2>
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">All</button>
+            <button class="filter-btn">All</button>
+            <button class="filter-btn">All</button>
+            <button class="filter-btn">All</button>
+            <button class="filter-btn">All</button>
+            <button class="filter-btn">All</button>
+            <button class="filter-btn">All</button>
+
+        </div>
+
+
+    </aside>
+
+
+    <main>
+        <h1>Shop Now</h1>
+        <div class="full-img" id="fullImgBox">
+            <img src="./assets/shoe1.avif" alt="shoe-img" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+        <div class="products-list">
+            <div class="product-card" data-id="1">
+                <div class="image-carousel">
+                    <img src="https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+                        alt="Essence Mascara" class="main-img">
+
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <div class="product-info">
+                    <h3 class="product-title">Essence Mascara Lash Princess</h3>
+                    <p class="product-description">Volumizing and lengthening effects. Achieve dramatic lashes...</p>
+
+                    <div class="price-container">
+                        <span class="current-price">$9.99</span>
+                        <span class="discount">-10.48%</span>
+                    </div>
+
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card" data-id="1">
+                <div class="image-carousel">
+                    <img src="https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+                        alt="Essence Mascara" class="main-img">
+
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <div class="product-info">
+                    <h3 class="product-title">Essence Mascara Lash Princess</h3>
+                    <p class="product-description">Volumizing and lengthening effects. Achieve dramatic lashes...</p>
+
+                    <div class="price-container">
+                        <span class="current-price">$9.99</span>
+                        <span class="discount">-10.48%</span>
+                    </div>
+
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card" data-id="1">
+                <div class="image-carousel">
+                    <img src="https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+                        alt="Essence Mascara" class="main-img">
+
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <div class="product-info">
+                    <h3 class="product-title">Essence Mascara Lash Princess</h3>
+                    <p class="product-description">Volumizing and lengthening effects. Achieve dramatic lashes...</p>
+
+                    <div class="price-container">
+                        <span class="current-price">$9.99</span>
+                        <span class="discount">-10.48%</span>
+                    </div>
+
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="logo">SoleMate</div>
+            <div class="footer_links">
+                <a><img src="./assets/instagram.svg" alt="instagram" class="icon contact"></a>
+                <a><img src="./assets/facebook.svg" alt="facebook" class="icon contact"> </a>
+                <a><img src="./assets/mail.svg" alt="mail" class="icon contact"> </a>
+                <a><img src="./assets/phone.svg" alt="phone" class="icon contact"> </a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">&copy; 2026 SoleMate. All rights reserved</div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

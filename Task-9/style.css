@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Paprika&display=swap');
+body {
+  font-family: Paprika ;
+  margin: 0;
+background-image: url("./assets/bg-img.png")
+}
+
+nav {
+  background: #C40C0C;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.logo #logo{
+    height: 25px;
+}
+nav a {
+  color: #FFD41D;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+sup{
+    font-size:small;
+    vertical-align:1em;
+}
+#app {
+  margin-top: 50px;
+  padding: 20px;
+  backdrop-filter: blur(4px);
+  width: 500px;
+  height: 500px;
+  color: #C40C0C;
+  border-radius: 20px;
+  box-shadow: #FFD41D 0px 0px 18px;
+  text-align: center;
+}
+.card-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap:5px;
+  grid-template-areas: 
+  "box-1 box-1"
+  "box-2 box-3"
+  "box-4 box-5";
+}
+.home-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.home-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff871d;
+}
+.home-title img{
+    height: 130px;
+}
+.home-desc {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.home-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.home-features div {
+  background: #ffd61d31;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.home-footer {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#app .inner-card{
+    background-color: #ffd61d14;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+#app .inner-card span{
+    font-size: 20px;
+    font-style: italic;
+    /* color: #C40C0C; */
+}
+#app .name{
+    grid-area: box-1;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+#app .number{
+    grid-area: box-2;
+}
+#app .number .value{
+    font-size: 30px;
+}
+
+#app .animal{
+    grid-area: box-3;
+}
+#app .planet{
+    grid-area: box-4;
+}
+#app .color{
+    grid-area: box-5;
+}
+#app .inner-card .value{
+    font-size: 40px;
+
+}
+#app .inner-card .value img{
+    height: 130px;
+}
+#app .inner-card .green{
+    color: green;
+}
+#app .inner-card .red{
+    color: red;
+}
+#app .inner-card .blue{
+    color: blue;
+}
+#app .inner-card .yellow{
+    color: rgb(242, 217, 26);
+}
+#app .inner-card .golden{
+
+    color: gold;
+}
+#app .inner-card .white{
+    color: grey;
+}
+#app .inner-card .black{
+    color: black;
+}

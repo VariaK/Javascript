@@ -119,6 +119,14 @@ https://github.com/user-attachments/assets/334655b0-26f5-4840-854f-35149a4bec7b
   - Implement hash-based routing by listening to the `window.onhashchange` event.
   - Dynamically load different content sections based on the current URL hash.
   - Maintain a consistent UI and state across route changes.
+ 
+## Output Task 9:
+
+
+
+https://github.com/user-attachments/assets/015c11ca-7a03-473e-bb28-d0d4ef1064c7
+
+
 
 ---
 

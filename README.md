@@ -141,3 +141,11 @@ https://github.com/user-attachments/assets/015c11ca-7a03-473e-bb28-d0d4ef1064c7
   - **Product Filtering/Search:** Add features for filtering products by category or searching by keywords.
   - **Responsive UI:** Ensure the interface adapts well to various screen sizes and devices.
   - **Advanced Concepts:** Incorporate modular JavaScript (using ES6 modules), advanced error handling, and efficient DOM manipulation techniques.
+
+ ## Output Task 10:
+
+https://github.com/user-attachments/assets/c4c0213e-b149-405d-970b-862b91c2681b
+
+
+
+

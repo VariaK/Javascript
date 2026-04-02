@@ -12,106 +12,67 @@
 
     <header id="header">
         <div class="logo">SoleMate</div>
-        <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Search for products...">
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for products...">
+            </div>
+            <div class="nav-links">
+                <div class="cart">
+                    <img id="cart-btn" src="./assets/shopping-cart.svg" alt="checkout">
+                </div>
+            </div>
         </div>
-
     </header>
 
-    <aside>
+    <aside id="sidebar">
         <div class="categories">
             <h2>Categories</h2>
-            <button class="filter-btn active">All</button>
-            <button class="filter-btn">All</button>
-            <button class="filter-btn">All</button>
-            <button class="filter-btn">All</button>
-            <button class="filter-btn">All</button>
-            <button class="filter-btn">All</button>
-            <button class="filter-btn">All</button>
-            <button class="filter-btn">All</button>
+
+            <button class="filter-btn active" data-category="all">All</button>
+
+            <button class="filter-btn" data-category="beauty">Beauty</button>
+            <button class="filter-btn" data-category="fragrances">Fragrances</button>
+            <button class="filter-btn" data-category="skin-care">Skin Care</button>
+            <button class="filter-btn" data-category="sunglasses">Sunglasses</button>
+            <button class="filter-btn" data-category="tops">Tops</button>
+            <button class="filter-btn" data-category="womens-bags">Women's Bags</button>
+            <button class="filter-btn" data-category="womens-dresses">Women's Dresses</button>
+            <button class="filter-btn" data-category="womens-jewellery">Women's Jewellery</button>
+            <button class="filter-btn" data-category="womens-shoes">Women's Shoes</button>
+            <button class="filter-btn" data-category="womens-watches">Women's Watches</button>
+            <button class="filter-btn" data-category="home-decoration">Home Decoration</button>
+            <button class="filter-btn" data-category="furniture">Furniture</button>
+            <button class="filter-btn" data-category="laptops">Laptops</button>
+            <button class="filter-btn" data-category="smartphones">Smartphones</button>
+            <button class="filter-btn" data-category="mobile-accessories">Mobile Accessories</button>
+            <button class="filter-btn" data-category="mens-shirts">Men's Shirts</button>
+            <button class="filter-btn" data-category="mens-shoes">Men's Shoes</button>
+            <button class="filter-btn" data-category="mens-watches">Men's Watches</button>
+            <button class="filter-btn" data-category="motorcycle">Motorcycle</button>
+            <button class="filter-btn" data-category="sports-accessories">Sports Accessories</button>
+            <button class="filter-btn" data-category="tablets">Tablets</button>
+            <button class="filter-btn" data-category="vehicle">Vehicle</button>
+            <button class="filter-btn" data-category="kitchen-accessories">Kitchen Accessories</button>
+            <button class="filter-btn" data-category="groceries">Groceries</button>
+
+        </div>
 
         </div>
 
 
     </aside>
 
-
-    <main>
-        <h1>Shop Now</h1>
-        <div class="full-img" id="fullImgBox">
-            <img src="./assets/shoe1.avif" alt="shoe-img" id="fullImg">
-            <span onclick="closeFullImg()">X</span>
+    <main id="main-content">
+        <div id="product-section">
+            <h1>Shop Now</h1>
+            <div id="product-container" class="products-list"></div>
         </div>
-        <div class="products-list">
-            <div class="product-card" data-id="1">
-                <div class="image-carousel">
-                    <img src="https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
-                        alt="Essence Mascara" class="main-img">
 
-                    <div class="carousel-dots">
-                        <span class="dot active"></span>
-                        <span class="dot"></span>
-                    </div>
-                </div>
-
-                <div class="product-info">
-                    <h3 class="product-title">Essence Mascara Lash Princess</h3>
-                    <p class="product-description">Volumizing and lengthening effects. Achieve dramatic lashes...</p>
-
-                    <div class="price-container">
-                        <span class="current-price">$9.99</span>
-                        <span class="discount">-10.48%</span>
-                    </div>
-
-                    <button class="add-to-cart-btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card" data-id="1">
-                <div class="image-carousel">
-                    <img src="https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
-                        alt="Essence Mascara" class="main-img">
-
-                    <div class="carousel-dots">
-                        <span class="dot active"></span>
-                        <span class="dot"></span>
-                    </div>
-                </div>
-
-                <div class="product-info">
-                    <h3 class="product-title">Essence Mascara Lash Princess</h3>
-                    <p class="product-description">Volumizing and lengthening effects. Achieve dramatic lashes...</p>
-
-                    <div class="price-container">
-                        <span class="current-price">$9.99</span>
-                        <span class="discount">-10.48%</span>
-                    </div>
-
-                    <button class="add-to-cart-btn">Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-card" data-id="1">
-                <div class="image-carousel">
-                    <img src="https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
-                        alt="Essence Mascara" class="main-img">
-
-                    <div class="carousel-dots">
-                        <span class="dot active"></span>
-                        <span class="dot"></span>
-                    </div>
-                </div>
-
-                <div class="product-info">
-                    <h3 class="product-title">Essence Mascara Lash Princess</h3>
-                    <p class="product-description">Volumizing and lengthening effects. Achieve dramatic lashes...</p>
-
-                    <div class="price-container">
-                        <span class="current-price">$9.99</span>
-                        <span class="discount">-10.48%</span>
-                    </div>
-
-                    <button class="add-to-cart-btn">Add to Cart</button>
-                </div>
-            </div>
+        <div id="cart-section">
+            <button id="back-btn">← Back to Shop</button>
+            <h1>Your Cart</h1>
+            <div id="cart-items"></div>
+            <div id="total"></div>
         </div>
     </main>
 
@@ -129,7 +90,7 @@
         <div class="footer-bottom">&copy; 2026 SoleMate. All rights reserved</div>
     </footer>
 
-    <script src="./script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>
